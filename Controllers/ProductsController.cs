@@ -15,7 +15,7 @@ namespace RedisExampleApp.API.Controllers
         }
 
 
-        // bütün dataları alıyoruz
+        // bütün dataları alıyoruz.
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
